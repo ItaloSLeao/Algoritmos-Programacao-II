@@ -1,0 +1,47 @@
+package aula_pratica5.modelo;
+import java.util.ArrayList;
+
+public class Turma {
+    private int codigo;
+    private String disciplina;
+    private ArrayList<Aluno> alunos;
+    private static int cont=0;
+
+    public Turma (int codigo, String disciplina){
+        this.codigo=codigo;
+        this.disciplina=disciplina;
+        this.alunos= new ArrayList<>();
+    }
+    public void matricular(Aluno a){
+        alunos.add(a);
+        cont++;
+    }
+    public void desmatricular(Aluno a){
+        alunos.remove(a);
+        cont--;
+    }
+    public String imprimir(){
+        return this.getCodigo()+ " - " + getDisciplina() + "\nAlunos matriculados: " + this.getQtdAluno();
+    }
+    public int getQtdAluno(){
+        return cont;
+    }
+    public int getCodigo() {
+        return codigo;
+    }
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+    public String getDisciplina() {
+        return disciplina;
+    }
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+    public ArrayList<Aluno> getAlunos() {
+        return alunos;
+    }
+    public void setAlunos(ArrayList<Aluno> alunos) {
+        this.alunos = alunos;
+    }
+}
