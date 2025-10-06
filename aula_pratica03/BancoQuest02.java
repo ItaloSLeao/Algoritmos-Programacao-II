@@ -1,5 +1,7 @@
 package aula_pratica3;
+
 import javax.swing.JOptionPane;
+
 public class BancoQuest02 {
 
     public static int solicitarOperacao(){ //método da main para solicitar a continuação da operação
@@ -158,3 +160,4 @@ public class BancoQuest02 {
         }
     }
 }
+
