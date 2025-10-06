@@ -1,4 +1,5 @@
 package aula_pratica4;
+
 import javax.swing.JOptionPane;
 
 import java.util.ArrayList; //a atividade orienta com o uso de arrays normais, porem a implementacao do arraylist deixa mais dinamico o código.
@@ -126,4 +127,5 @@ public class Questao02 {
             }
             switch(op){ case 0: {JOptionPane.showMessageDialog(null, "Operações encerradas!");}
     }
+
     }}
