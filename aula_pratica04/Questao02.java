@@ -1,8 +1,8 @@
 package aula_pratica4;
 
 import javax.swing.JOptionPane;
+import java.util.ArrayList; //a atividade orienta com o uso de arrays normais, porem a implementacao do arraylist deixa mais dinamico.
 
-import java.util.ArrayList; //a atividade orienta com o uso de arrays normais, porem a implementacao do arraylist deixa mais dinamico o código.
 public class Questao02 {
     public static String menu(){
         return "Escolha uma opção:\n" +
@@ -129,3 +129,4 @@ public class Questao02 {
     }
 
     }}
+
