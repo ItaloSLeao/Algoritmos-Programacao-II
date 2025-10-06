@@ -1,4 +1,5 @@
 package aula_pratica4.outrosExercicios;
+
 public class Livro {
     private String titulo, autores, editora;
     private int ano, paginas, cadastro;
@@ -39,3 +40,4 @@ public class Livro {
 
     public static int getQtd(){return qtd;}
 }
+
