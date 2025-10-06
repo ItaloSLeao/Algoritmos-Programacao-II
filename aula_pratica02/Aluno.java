@@ -1,4 +1,5 @@
 package aula_pratica2;
+
 public class Aluno {
     String nome;
     int matricula;
@@ -32,3 +33,4 @@ public class Aluno {
             "Média Final: %.2f\nNota Necessária para a Final: %.2f", nome, matricula, prova1, prova2, trabalho, media, notaFinal);
     }
 }
+
