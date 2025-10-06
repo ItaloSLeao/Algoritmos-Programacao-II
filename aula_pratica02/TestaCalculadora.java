@@ -1,5 +1,7 @@
 package aula_pratica2;
+
 import javax.swing.JOptionPane;
+
 public class TestaCalculadora {
     public static void main(String[] args) {
         int x, y;
@@ -12,4 +14,5 @@ public class TestaCalculadora {
         System.out.println("Multiplicação: " + calc.multiplicar(x, y));
         System.out.println("Divisão: " + calc.dividir(x, y));
 }
+
 }
