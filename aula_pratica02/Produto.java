@@ -1,4 +1,5 @@
 package aula_pratica2;
+
 public class Produto {
     String nomeProduto, descricao;
     float preco;
@@ -8,3 +9,4 @@ public class Produto {
         return preco*quantidade;
     }
 }
+
