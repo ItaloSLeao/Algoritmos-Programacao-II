@@ -1,4 +1,5 @@
 package aula_pratica4;
+
 import java.util.ArrayList;
 
 public class Pedido {
@@ -40,4 +41,5 @@ public class Pedido {
 
 //2. f): não é necessaria a implementação do setData e setCodigo, a menos que a requisição do menu seja expandida
 //para que essas opções existam no laço e no switch case. dentro das opçoes de operações dadas pelo menu, não se 
+
 //vê necessidade para a criação desses métodos. 
