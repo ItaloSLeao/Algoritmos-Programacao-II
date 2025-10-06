@@ -1,4 +1,5 @@
 package aula_pratica4;
+
 public class Produto{ //letra b) da questao 2
     private String nome, descricao, tipo; //nome do produto em instancia, descricao: descreve o produto em instancia, tipo do produto em instancia.
     private int codigo, qtd; //codigo: identifica o produto em instancia. qtd: quantidade de um produto em instancia a ser usado.
@@ -68,6 +69,7 @@ public class Produto{ //letra b) da questao 2
     public String getTipo(){
         return this.tipo;
     }
+
 
 
 }
