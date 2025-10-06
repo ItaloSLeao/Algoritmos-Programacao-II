@@ -1,5 +1,7 @@
 package aula_pratica2;
+
 import javax.swing.JOptionPane;
+
 public class LanchoneteTeste {
     public static void main(String[] args) {
         float total=0f; 
@@ -54,3 +56,4 @@ public class LanchoneteTeste {
 
     }
 }
+
