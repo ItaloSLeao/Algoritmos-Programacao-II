@@ -1,4 +1,5 @@
 package aula_pratica4.outrosExercicios;
+
 import javax.swing.JOptionPane;
 
 public class Empresa {
@@ -84,3 +85,4 @@ public class Empresa {
             if(op.equalsIgnoreCase("N")){JOptionPane.showMessageDialog(null, "Obrigado por participar! Bom dia, boa tarde, boa noite.");}
     }
 }
+
