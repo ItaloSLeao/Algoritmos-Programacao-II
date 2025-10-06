@@ -1,4 +1,5 @@
 package aula_pratica4;
+
 public class Cliente {
     private long cpf;
     private String nome;
@@ -38,3 +39,4 @@ public class Cliente {
         return "Nome: " + nome + ", CPF: " + cpf + ", Endereço: " + endereco;
     }
 }
+
