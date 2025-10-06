@@ -1,5 +1,7 @@
 package aula_pratica2;
+
 import javax.swing.JOptionPane;
+
 public class Banco {
     public static void main(String[] args){
         Conta c1 = new Conta();
