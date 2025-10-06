@@ -1,4 +1,5 @@
 package aula_pratica4.outrosExercicios;
+
 public class Funcionario {
     private String nome;
     private String cargo;
@@ -62,3 +63,4 @@ public class Funcionario {
     //Quais objetos estão envolvidos? -> cada funcionario da classe Funcionario, que possui nome, cargo, data, cpf, horas trabalhadas e valor da hora trabalhada
 
 }
+
