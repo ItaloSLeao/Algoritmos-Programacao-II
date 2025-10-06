@@ -1,4 +1,5 @@
 package aula_pratica3;
+
 public class Veiculo{
     private char codigo;
     private String tipo;
@@ -58,5 +59,6 @@ public class Veiculo{
     public void setPosicao(int posicao){
         this.posicao = posicao;
     }
+
 
 }
