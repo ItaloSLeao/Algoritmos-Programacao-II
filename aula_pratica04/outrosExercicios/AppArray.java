@@ -1,5 +1,7 @@
 package aula_pratica4.outrosExercicios;
+
 import javax.swing.JOptionPane;
+
 public class AppArray{
     public static void main (String[] arg){
 
@@ -34,4 +36,5 @@ public class AppArray{
                     op = JOptionPane.showInputDialog("Você quer buscar algum produto? (S/N)");
             }
     }
+
 }
