@@ -1,5 +1,7 @@
 package aula_pratica4.outrosExercicios;
+
 import java.util.ArrayList;
+
 public class Cliente {
     private String nome;
     private ArrayList<Livro> livrosComprados, livrosVendidos;
@@ -50,3 +52,4 @@ public class Cliente {
 
     public int getCadastro(){return this.cadastro;}
 }
+
