@@ -1,4 +1,5 @@
 package aula_pratica5.modelo;
+
 import java.util.ArrayList;
 
 public class Turma {
@@ -45,3 +46,4 @@ public class Turma {
         this.alunos = alunos;
     }
 }
+
