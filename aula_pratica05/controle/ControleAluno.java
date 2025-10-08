@@ -1,4 +1,5 @@
 package aula_pratica5.controle;
+
 import java.util.ArrayList;
 import aula_pratica5.modelo.Aluno;
 
@@ -42,4 +43,3 @@ public class ControleAluno {
             return dadosAlunos;
         }
 }
-
