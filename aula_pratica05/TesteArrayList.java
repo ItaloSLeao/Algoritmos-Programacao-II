@@ -1,6 +1,7 @@
 package aula_pratica5;
 
 import java.util.ArrayList;
+
 public class TesteArrayList{
     public static void main(String[] args) {
         ArrayList<Pessoa> pessoas = new ArrayList<>();
@@ -28,5 +29,6 @@ public class TesteArrayList{
 //18 ano(s)
 //Ciclano
 //23 ano(s)
+
 
 //1.d) foi implementado a classe pessoa ao arraylist pessoas, definindo o método imprimir().
