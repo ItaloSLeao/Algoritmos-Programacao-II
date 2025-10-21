@@ -1,8 +1,10 @@
 package aula_pratica8;
+
 import java.util.ArrayList;
 
 public class AppBanco {
     public static void main(String[] args) {
+        
         ContaCorrente cc = new ContaCorrente("italo", 1000, 1, 5);
         Poupanca p = new Poupanca("italo", 2000, 2);
         cc.depositar(100); //100-1% = 99 q será depositado
@@ -11,9 +13,11 @@ public class AppBanco {
         ArrayList <Conta> contas = new ArrayList<>();
         contas.add(cc);
         contas.add(p);
+        
         for(Conta c : contas){
             System.out.println(c.recuperarDadosConta());
         }
+        
     }
 }
 
